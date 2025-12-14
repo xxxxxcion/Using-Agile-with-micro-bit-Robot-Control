@@ -5,7 +5,7 @@ from maix import GPIO, utils
 from fpioa_manager import fm
 from board import board_info
 from modules import ybserial
-
+# PRIVACY UPDATE: Added hashing logic
 # Initialize Serial Communication
 serial = ybserial()
 
